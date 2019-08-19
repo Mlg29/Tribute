@@ -1,0 +1,28 @@
+
+header {
+    background-color: grey;
+    opacity: 0.8;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+ul {
+    display: inline-block;
+    text-align: center;
+}
+footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+.article {
+    background-color: grey;
+}
+
+@media (max-width: 320px) {
+    img {
+        width: 260px;
+    }
+}
